@@ -57,3 +57,89 @@
     height: 30rem;
 }
 /* perfect tool got other boxes rem */
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 20em;
+    height: 25em;
+    border: 1px solid black;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 2em;
+    margin-top: 1em ;
+    margin-left: 10rem;
+}
+
+
+    .MAA {
+        display: flex;
+        width: 10rem;
+        height: 7rem;
+        border: 1px solid black;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 20px;
+        margin: 20px;
+    }
+    .Calc {
+        display: flex;
+        width: 10rem;
+        height: 7rem;
+        border: 1px solid black;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 20px;
+        margin: 20px;
+    }
+    .Res{
+        display: flex;
+        width: 10rem;
+        height: 7rem;
+        border: 1px solid black;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 20px;
+        margin: 20px;
+    }
+    .Albm {
+        display: flex;
+        width: 10rem;
+        height: 7rem;
+        border: 1px solid black;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 20px;
+        margin: 20px;
+    
+    }
+    .Data{
+        display: flex;
+        width: 10rem;
+        height: 7rem;
+        border: 1px solid black;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 20px;
+        margin: 20px;
+    }
+    
+    
+    .car {
+        display: flex;
+        width: 10rem;
+        height: 7rem;
+        border: 1px solid black;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 20px;
+        margin: 20px;
+         
+    }
+}
+    
+
+
+    
+
+
