@@ -2,11 +2,15 @@
     display: flex;
     height: 25;
     width: 100%;
-    background-color: #273248;
-    color: #ffa364 ;
+    background-color: #bec6d5;
+    color: #070604 ;
 }
-.nav{
+.nav {
     display: flex;
+    align-items: center;
+    margin-left: 25rem;
+    margin-top:2em;
+    list-style: none;
 }
 
     
@@ -17,31 +21,49 @@
     width: 10px;
     height: 5px;
     margin: 10px;
+    /* border: 1px solid black; */
 }
-#MyWork {
+#MW {
     Padding: 10px;
     width: 20px;
     height: 20px;
     margin: 10px;
+    /* border: 1px solid black; */
+
 }
 #conme {
     Padding: 10px;
     width: 10px;
     height: 5px;
     margin: 10px;
+    /* border: 1px solid black; */
+
+}
+
+#resume {
+    padding: 10px;
+    width: 10px;
+    height: 5px;
+    margin: 10px;
+    /* border: 1px solid black; */
+
+
+
+
+
 }
  .h2 {
     width:200px;
     height: 50px;
-    border: 20px 20px red;
+    /* border: 20px 20px red; */
     float: left;
     margin-left: -10px;
     
     }
 .p{
-    width: 55% ;
+    width: 65% ;
     height: 70px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: inline-block;
     float: right;
     margin-right: 70px;
@@ -61,66 +83,66 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 20em;
+    width: 35em;
     height: 25em;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     justify-content: space-between;
-    gap: 5px;
-    padding: 2em;
+    gap: 3px;
+    padding: 3em;
     margin-top: 1em ;
-    margin-left: 10rem;
+    margin-left: 2rem;
 }
 
 
     .MAA {
         display: flex;
-        width: 10rem;
-        height: 7rem;
-        border: 1px solid black;
+        width: 40rem;
+        height: 400em;
+        /* border: 1px solid black; */
         justify-content: space-between;
         gap: 10px;
-        padding: 20px;
+        padding: 30px;
         margin: 20px;
     }
     .Calc {
         display: flex;
         width: 10rem;
-        height: 7rem;
-        border: 1px solid black;
+        /* height: 9rem; */
+        /* border: 1px solid black; */
         justify-content: space-between;
-        gap: 10px;
-        padding: 20px;
+        gap: 7px;
+        padding: 30px;
         margin: 20px;
     }
     .Res{
         display: flex;
         width: 10rem;
-        height: 7rem;
-        border: 1px solid black;
+        /* height: 9rem; */
+        /* border: 1px solid black; */
         justify-content: space-between;
-        gap: 10px;
-        padding: 20px;
+        gap: 7px;
+        padding: 30px;
         margin: 20px;
     }
     .Albm {
         display: flex;
         width: 10rem;
-        height: 7rem;
-        border: 1px solid black;
+        /* height: 9rem; */
+        /* border: 1px solid black; */
         justify-content: space-between;
-        gap: 10px;
-        padding: 20px;
+        gap: 7px;
+        padding: 30px;
         margin: 20px;
     
     }
     .Data{
         display: flex;
         width: 10rem;
-        height: 7rem;
-        border: 1px solid black;
+        /* height: 9rem; */
+        /* border: 1px solid black; */
         justify-content: space-between;
-        gap: 10px;
-        padding: 20px;
+        gap: 7px;
+        padding: 30px;
         margin: 20px;
     }
     
@@ -128,15 +150,26 @@
     .car {
         display: flex;
         width: 10rem;
-        height: 7rem;
-        border: 1px solid black;
+        /* height: 9rem; */
+        /* border: 1px solid black; */
         justify-content: space-between;
-        gap: 10px;
-        padding: 20px;
+        gap: 7px;
+        padding: 30px;
         margin: 20px;
          
     }
-}
+    .div{
+        display: flex;
+        flex-wrap: wrap;
+       flex-direction: row;
+        flex: 2rem;
+        height: 2rem;
+
+        
+
+
+    }
+
     
 
 
