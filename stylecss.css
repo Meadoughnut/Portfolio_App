@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    height: 25;
+    height: 70px;
     width: 100%;
     background-color: #bec6d5;
     color: #070604 ;
@@ -96,18 +96,18 @@
 
     .MAA {
         display: flex;
-        width: 40rem;
+        width: 20rem;
         height: 400em;
         /* border: 1px solid black; */
         justify-content: space-between;
-        gap: 10px;
+        gap: 7px;
         padding: 30px;
         margin: 20px;
     }
     .Calc {
         display: flex;
         width: 10rem;
-        /* height: 9rem; */
+        height: 5rem;
         /* border: 1px solid black; */
         justify-content: space-between;
         gap: 7px;
@@ -117,7 +117,7 @@
     .Res{
         display: flex;
         width: 10rem;
-        /* height: 9rem; */
+        height: 5rem;
         /* border: 1px solid black; */
         justify-content: space-between;
         gap: 7px;
@@ -127,7 +127,7 @@
     .Albm {
         display: flex;
         width: 10rem;
-        /* height: 9rem; */
+        height: 5rem;
         /* border: 1px solid black; */
         justify-content: space-between;
         gap: 7px;
@@ -138,7 +138,7 @@
     .Data{
         display: flex;
         width: 10rem;
-        /* height: 9rem; */
+        height: 5rem;
         /* border: 1px solid black; */
         justify-content: space-between;
         gap: 7px;
@@ -150,7 +150,7 @@
     .car {
         display: flex;
         width: 10rem;
-        /* height: 9rem; */
+        height: 5rem;
         /* border: 1px solid black; */
         justify-content: space-between;
         gap: 7px;
