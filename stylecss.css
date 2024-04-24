@@ -1,14 +1,15 @@
 .header {
     display: flex;
-    height: 70px;
+    height: 90px;
     width: 100%;
-    background-color: #bec6d5;
+    background-color: #5980c9;
     color: #070604 ;
+    position: sticky;
 }
 .nav {
     display: flex;
     align-items: center;
-    margin-left: 25rem;
+    margin-left: 28em;
     margin-top:2em;
     list-style: none;
 }
@@ -46,27 +47,44 @@
     height: 5px;
     margin: 10px;
     /* border: 1px solid black; */
+}
+
+#name{
+    padding: 10px;
+    border: 1px solid lightblue;
+    height:fit-content;
+    width: fit-content;
+    float: inline-start;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 2em;
+    color: rgb(204, 178, 30);
 
 
 
 
 
 }
- .h2 {
+ 
+
+.h2 {
     width:200px;
     height: 50px;
     /* border: 20px 20px red; */
     float: left;
     margin-left: -10px;
+    color: rgb(204, 178, 30);
     
     }
 .p{
     width: 65% ;
-    height: 70px;
+    height: 90px;
     /* border: 1px solid black; */
+    padding: 30px;
     display: inline-block;
     float: right;
-    margin-right: 70px;
+    margin-right: 20px;
+    border-left: 5px solid rgb(204, 178, 30);
     
 }
 .section {
@@ -87,17 +105,17 @@
     height: 25em;
     /* border: 1px solid black; */
     justify-content: space-between;
-    gap: 3px;
+    gap: -5px;
     padding: 3em;
     margin-top: 1em ;
-    margin-left: 2rem;
+    margin-left: -1rem;
 }
 
 
     .MAA {
         display: flex;
         width: 20rem;
-        height: 400em;
+        height: 40rem;
         /* border: 1px solid black; */
         justify-content: space-between;
         gap: 7px;
@@ -164,12 +182,10 @@
        flex-direction: row;
         flex: 2rem;
         height: 2rem;
-
-        
-
-
     }
-
+.hr{
+    color: blue;
+}
     
 
 
