@@ -113,6 +113,7 @@
     padding: 3em;
     margin-top: 1em ;
     margin-left: -1rem;
+    
 }
 
 
@@ -120,57 +121,71 @@
         display: flex;
         width: 20rem;
         height: 40rem;
-        /* border: 1px solid black; */
+        border: 5px solid  lightgrey;
         justify-content: space-between;
         gap: 7px;
         padding: 30px;
         margin: 20px;
-        background: url('image.png') center/cover;
+        background: url('Calc.jpeg') center/cover;
+        border-radius: 25px;
+        border-style:double;
+        box-shadow: 6px 6px 8px lightgray;
     }
     .Calc {
         display: flex;
         width: 10rem;
         height: 5rem;
-        /* border: 1px solid black; */
+        border: 5px solid lightgrey;
         justify-content: space-between;
         gap: 7px;
         padding: 30px;
         margin: 20px;
-        background: url('image.png') center/cover;
+        background: url('MAA.jpeg') center/cover;
+        border-radius: 25px;
+        border-style:double;
+        box-shadow: 6px 6px 8px lightgray;
     }
     .Res{
         display: flex;
         width: 10rem;
         height: 5rem;
-        /* border: 1px solid black; */
+        border: 5px solid lightgrey;
         justify-content: space-between;
         gap: 7px;
         padding: 30px;
         margin: 20px;
-        background: url('image.png') center/cover;
+        background: url('Restaurant.jpeg') center/cover;
+        border-radius: 25px;
+        border-style:double;
+        box-shadow: 6px 6px 8px lightgray;
     }
     .Albm {
         display: flex;
         width: 10rem;
         height: 5rem;
-        /* border: 1px solid black; */
+        border: 5px solid  lightgrey;
         justify-content: space-between;
         gap: 7px;
         padding: 30px;
         margin: 20px;
-        background: url('image.png') center/cover;
-    
+        background: url('bts.jpeg') center/cover;
+        border-radius: 25px;
+        border-style:double;
+        box-shadow: 6px 6px 8px lightgray;
     }
     .Data{
         display: flex;
         width: 10rem;
         height: 5rem;
-        /* border: 1px solid black; */
+        border: 5px solid  lightgrey;
         justify-content: space-between;
         gap: 7px;
         padding: 30px;
         margin: 20px;
-        background: url('image.png') center/cover;
+        background: url('data.jpeg') center/cover;
+        border-radius: 25px;
+        border-style:double;
+        box-shadow: 6px 6px 8px lightgray;
     }
     
     
@@ -178,12 +193,16 @@
         display: flex;
         width: 10rem;
         height: 5rem;
-        /* border: 1px solid black; */
+        border: 5px solid lightgrey;
         justify-content: space-between;
         gap: 7px;
         padding: 30px;
         margin: 20px;
-        background: url('image.png') center/cover;
+        background: url('car.jpeg') top/cover;
+        border-radius: 25px;
+        border-style:double;
+        box-shadow: 6px 6px 8px lightgray;
+       
          
     }
     .div{
@@ -197,7 +216,13 @@
 .hr{
     color: blue;
 }
-    
+.img {
+    margin-left: 30px;
+    float: right;
+}
+.avator{
+   
+}
 
 
     
