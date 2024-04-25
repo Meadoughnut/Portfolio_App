@@ -13,6 +13,10 @@
     margin-top:2em;
     list-style: none;
 }
+.nm {
+    margin-bottom: rem;
+
+}
 
     
 
@@ -82,7 +86,7 @@
     /* border: 1px solid black; */
     padding: 30px;
     display: inline-block;
-    float: right;
+    float:  right;
     margin-right: 20px;
     border-left: 5px solid rgb(204, 178, 30);
     
@@ -121,6 +125,7 @@
         gap: 7px;
         padding: 30px;
         margin: 20px;
+        background: url('image.png') center/cover;
     }
     .Calc {
         display: flex;
@@ -131,6 +136,7 @@
         gap: 7px;
         padding: 30px;
         margin: 20px;
+        background: url('image.png') center/cover;
     }
     .Res{
         display: flex;
@@ -141,6 +147,7 @@
         gap: 7px;
         padding: 30px;
         margin: 20px;
+        background: url('image.png') center/cover;
     }
     .Albm {
         display: flex;
@@ -151,6 +158,7 @@
         gap: 7px;
         padding: 30px;
         margin: 20px;
+        background: url('image.png') center/cover;
     
     }
     .Data{
@@ -162,6 +170,7 @@
         gap: 7px;
         padding: 30px;
         margin: 20px;
+        background: url('image.png') center/cover;
     }
     
     
@@ -174,6 +183,7 @@
         gap: 7px;
         padding: 30px;
         margin: 20px;
+        background: url('image.png') center/cover;
          
     }
     .div{
@@ -182,6 +192,7 @@
        flex-direction: row;
         flex: 2rem;
         height: 2rem;
+        background: url('image.png') center/cover;
     }
 .hr{
     color: blue;
