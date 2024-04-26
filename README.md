@@ -1,5 +1,7 @@
 #  Portfolio Application
 
+http://127.0.0.1:5500/my_first/index.html
+
 ## Description
 
 Welcome!
@@ -17,7 +19,7 @@ Key Points:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/Meadoughnut/marketing-agency-refactor.git
+   git clone https://github.com/portfolio_app.git
    ```
 2. Open the project directory:
    ```
@@ -34,7 +36,5 @@ For any inquiries or feedback regarding the project, feel free to contact the pr
 
 Meadin Menbere
 meadinmenbere488@gmail.com
-<link to github profile>
----
 
 This README provides an overview of the refactorization process and how to contribute to the project. Feel free to customize it further according to your project's specific requirements.
