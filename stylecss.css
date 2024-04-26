@@ -1,5 +1,6 @@
-body{
+body {
     margin: 0;
+    
 }
 
 
@@ -7,7 +8,7 @@ body{
     display: flex;
     height: 120px;
     width: 100%;
-    background-color: #5980c9;
+    background-color: lightcyan;
     color: #070604;
     top: 0;
     left: 0;
@@ -19,9 +20,13 @@ body{
 .nav {
     display: flex;
     align-items: center;
-    margin-left: 28em;
+    margin-left: 40em;
     margin-top: 2em;
     list-style: none;
+    color:steelblue;
+    text-decoration: none;
+    font-size: px;
+
 }
 
 .nm {
@@ -37,7 +42,10 @@ body{
     width: 10px;
     height: 5px;
     margin: 10px;
-    /* border: 1px solid black; */
+    font-size: 20px;
+    color: steelblue;
+    text-decoration: none;
+    
 }
 
 #MW {
@@ -45,7 +53,10 @@ body{
     width: 20px;
     height: 20px;
     margin: 10px;
-    /* border: 1px solid black; */
+    font-size: 20px;
+    color: steelblue;
+    text-decoration: none;
+   
 
 }
 
@@ -54,17 +65,15 @@ body{
     width: 10px;
     height: 5px;
     margin: 10px;
-    /* border: 1px solid black; */
+    text-decoration-style: none;
+    font-size: 20px;
+    color: steelblue;
+    text-decoration: none;
+   
 
 }
 
-#resume {
-    padding: 10px;
-    width: 10px;
-    height: 5px;
-    margin: 10px;
-    /* border: 1px solid black; */
-}
+
 
 #name {
     display: flex;
@@ -76,9 +85,10 @@ body{
     width: fit-content;
     float: inline-start;
     text-align: center;
-    background-color: aliceblue;
+    background-color: lightyellow;
     font-size: 2em;
-    color: rgb(204, 178, 30);
+    color: steelblue;
+    border-radius: 15px;
 
 
 
@@ -93,7 +103,7 @@ body{
     /* border: 20px 20px red; */
     float: left;
     margin-left: -10px;
-    color: rgb(204, 178, 30);
+    color: steelblue;
 
 }
 
@@ -105,9 +115,38 @@ body{
     display: inline-block;
     float: right;
     margin-right: 20px;
-    border-left: 5px solid rgb(204, 178, 30);
+    border-left: 5px solid lightsteelblue;
+    color: steelblue;
 
 }
+
+#phone {
+    font-size: 25px;
+    padding-right: 5rem;
+    padding-left:20px ;
+    padding-bottom: 20px;
+    color:steelblue;
+}
+#email {
+    font-size: 25px;
+    padding-right: 5rem;
+    padding-left:20px ;
+    padding-bottom: 20px;
+    color:steelblue;
+}
+#github {
+    font-size: 25px;
+    padding-right: 5rem;
+    padding-left:20px ;
+    padding-bottom: 20px;
+    color:steelblue;
+}
+
+
+
+
+
+
 
 .section {
     display: flex;
@@ -137,11 +176,11 @@ body{
 
 
 .MAA {
-    
+
     width: 20rem;
     height: 40rem;
     border: 5px solid lightgrey;
-    
+
     gap: 7px;
     padding: 30px;
     margin: 20px;
@@ -151,10 +190,12 @@ body{
     box-shadow: 6px 6px 8px lightgray;
     cursor: pointer;
 }
+
 .MAA:hover {
     box-shadow: 6px 6px 8px black;
-    /* border-radius: 30px; */
+    /
 }
+
 .Calc {
     /* display: flex; */
     width: 10rem;
@@ -168,6 +209,10 @@ body{
     border-radius: 25px;
     border-style: double;
     box-shadow: 6px 6px 8px lightgray;
+}
+
+.Calc:hover {
+    box-shadow: 6px 6px 8px black;
 }
 
 .Res {
@@ -185,6 +230,10 @@ body{
     box-shadow: 6px 6px 8px lightgray;
 }
 
+.Res:hover {
+    box-shadow: 6px 6px 8px black;
+}
+
 .Albm {
     display: flex;
     width: 10rem;
@@ -198,6 +247,10 @@ body{
     border-radius: 25px;
     border-style: double;
     box-shadow: 6px 6px 8px lightgray;
+}
+
+.Albm:hover {
+    box-shadow: 6px 6px 8px black;
 }
 
 .Data {
@@ -215,6 +268,10 @@ body{
     box-shadow: 6px 6px 8px lightgray;
 }
 
+.Data:hover {
+    box-shadow: 6px 6px 8px black;
+}
+
 
 .car {
     display: flex;
@@ -230,7 +287,10 @@ body{
     border-style: double;
     box-shadow: 6px 6px 8px lightgray;
 
+}
 
+Data:hover {
+    box-shadow: 6px 6px 8px black;
 }
 
 .div {
@@ -243,15 +303,15 @@ body{
 }
 
 .hr {
-    color: blue;
+    color: lightcyan;
 }
-
-.img {
+/* I will add more features here.  */
+/* .img {
     /* margin-left: 30px;
     margin-top: -20rem; */
     /* float: right; */
     /* height: 5%; */
-}
+
 
 .avator {
     border-radius: 50%;
@@ -273,10 +333,8 @@ body{
     position: relative;
     float: right;
 }
-
-/* }
-body{
-    background-image: url(blue.jpg) ;
+footer{
+    background-color: lightcyan;
+    width: 100%;
+    text-align: center;
 }
-
-     */
