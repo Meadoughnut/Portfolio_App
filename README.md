@@ -1,6 +1,6 @@
 #  Portfolio Application
 
-http://127.0.0.1:5500/my_first/index.html
+
 
 ## Description
 
